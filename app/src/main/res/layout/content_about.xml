@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AboutActivity"
+    tools:showIn="@layout/activity_about">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_margin="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelompok 4"
+            android:fontFamily="sans-serif-black"
+            android:textSize="30dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/amaliaImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/amallianurdin"
+            app:civ_border_width="1dp"
+            android:layout_margin="12dp"
+            app:civ_circle_background_color="@color/productBackground"
+            app:civ_border_color="#ff6f00"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:textAlignment="center"
+    android:text="17103044\nAmal Lia Nurdin"
+    />
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/aprillianaImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/aprilianapuspitaningrum"
+            app:civ_border_width="1dp"
+            android:layout_margin="12dp"
+            app:civ_circle_background_color="@color/productBackground"
+            app:civ_border_color="#ff6f00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:text=" 17103063\nApriliana Puspitaningrum"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tikaImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tikafebianti"
+            app:civ_border_width="1dp"
+            android:layout_margin="12dp"
+            app:civ_circle_background_color="@color/productBackground"
+            app:civ_border_color="#ff6f00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:text="17103041\nTika Febianti"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/namiraImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/namiranuroktafviantika"
+            app:civ_border_width="1dp"
+            android:layout_margin="12dp"
+            app:civ_circle_background_color="@color/productBackground"
+            app:civ_border_color="#ff6f00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:text=" 17103036\nNamira Nur Oktafviantika"
+            android:layout_marginBottom="12dp"/>
+    </LinearLayout>
+
+
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

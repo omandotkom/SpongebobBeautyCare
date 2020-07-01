@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "485361229525",
+    "firebase_url": "https://spongebob-beauty-care.firebaseio.com",
+    "project_id": "spongebob-beauty-care",
+    "storage_bucket": "spongebob-beauty-care.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485361229525:android:e6937ed88272be5a750c5c",
+        "android_client_info": {
+          "package_name": "com.example.spongebobbeautycare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485361229525-mu6g8sovdceo04sol009avm13dt793mi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spongebobbeautycare",
+            "certificate_hash": "ccbeb8ff32fbbd7f1af3d787956c89018e4bf121"
+          }
+        },
+        {
+          "client_id": "485361229525-ev3g1gp58ufun5qmno5jlrlp5hoqo6o3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW7l352ujGk3adCLfZB7R3p_N7H2HXp2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485361229525-ev3g1gp58ufun5qmno5jlrlp5hoqo6o3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

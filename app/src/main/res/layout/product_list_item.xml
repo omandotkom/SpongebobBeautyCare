@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="10dp"
+    android:backgroundTint="@color/cardcolor"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:id="@+id/contentFocus"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/productimage"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/makeup"
+                app:civ_border_width="1dp"
+                android:layout_margin="12dp"
+                app:civ_circle_background_color="@color/productBackground"
+                app:civ_border_color="#ff6f00"/>
+
+            <!-- TextView Nama Mahasiwa -->
+            <TextView
+                android:id="@+id/namaproduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="6"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="15dp"
+                android:textColor="@color/light"
+
+                android:layout_gravity="center_vertical"
+
+                />
+        </LinearLayout>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="3dp"
+    android:id="@+id/buttonMore"
+    android:layout_gravity="center"
+    android:background="@drawable/btn_rounded"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="5dp"
+    android:text="@string/button_detil"
+    android:padding="2dp"
+    android:visibility="gone"
+    android:drawableLeft="@drawable/vision"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            android:id="@+id/buttonEdit"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_rounded"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"
+            android:text="@string/button_edit"
+            android:padding="2dp"
+            android:drawableLeft="@drawable/pencil"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

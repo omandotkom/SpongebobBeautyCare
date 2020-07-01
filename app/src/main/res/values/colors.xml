@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffc400</color>
+    <color name="colorPrimaryDark">#ffab00</color>
+    <color name="colorAccent">#ffc107</color>
+    <color name="productBackground">#ffd740</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="title_white_orange">#fff8e1</color>
+    <color name="light">#ffe082</color>
+    <color name="my_app_primary_variant_color">#ff6f00</color>
+    <color name="my_app_secondary_variant_color">#ffa000</color>
+    <color name="my_app_surface_color">#ffc400</color>
+    <color name="my_app_color_on_primary">#ffc400</color>
+    <color name="my_app_color_on_secondary">#ffa000</color>
+    <color name="my_app_color_on_background">#ffc107</color>
+    <color name="my_app_color_on_error">#d32f2f</color>
+    <color name="my_app_color_on_surface">#ffc107</color>
+    <color name="white">#fff8e1</color>
+    <color name="red">#ff1744</color>
+    <color name="cardcolor">#ff8a65</color>
+
+</resources>
